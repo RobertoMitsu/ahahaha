@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "rello"
+  name: "Hello"
 spec:
   type: service
-  owner: user:guest
+  owner: teste
   lifecycle: experimental
