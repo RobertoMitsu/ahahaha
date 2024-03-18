@@ -1,8 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Hello"
+  name: develop
+  description: teste catalog-info
 spec:
   type: service
-  owner: teste
-  lifecycle: experimental
+  lifecycle: production
+  owner: Roberto
+  # system: artist-engagement-portal
+  dependsOn:
+    - resource:default/artists-db
+
